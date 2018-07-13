@@ -1,0 +1,250 @@
+@media (min-width: 992px){
+  .container {
+    max-width: 940px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    padding: 40px 0;
+    background-color: transparent;
+}
+
+.logo {
+  font-size: 1.75em;
+  float: left;
+  color: #fed136;
+  vertical-align: middle;
+  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+}
+
+.header.navbar-shrink .logo {
+  font-size: 1.35em;
+}
+
+.header.navbar-shrink {
+  background-color: #212529;
+  padding: 23px;
+  z-index: 100;
+}
+
+  .navbar {
+    display: block;
+  }
+
+  #navbar-toggler {
+    display: none;
+  }
+}
+
+
+@media (max-width: 992px){
+  .header .navbar.active {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: auto;
+    float: none;
+    padding-bottom: 25px;
+    background-color: #212529;
+  }
+
+  .header .navbar.active ul li {
+    display: block;
+    margin-left: 50px;
+    margin-top: 16px;
+  }
+  
+  .header .navbar.active li a {
+    text-align: left;
+    display: block;
+    font-size: 98%;
+  }
+
+  .portfolio-bottom-services .items {
+    flex: 0 1 30.333%;
+}
+
+
+@media (max-width: 768px){
+  section {
+    padding: 100px 0;
+  }
+
+  .banner .banner-content {
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+
+  .banner .banner-content h3{
+      font-size: 35px;
+      margin-bottom: 25px; 
+  }
+
+  .banner .banner-content h2{
+    font-size: 40px;
+}
+
+  .services .bottom-services-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+.services .bottom-services-content .services-item {
+    padding: 0 50px;
+    margin-top: 50px;
+  }
+
+.services .bottom-services-content .services-item:nth-child(1) {
+    margin-top: 0px;
+  }
+  
+.portfolio-bottom-services .items {
+    flex: 0 1 48%;
+}
+
+.portfolio-bottom-services .items:nth-child(3){
+  margin-top: 50px;
+}
+
+ .team-member img {
+    width: 180px;
+    height: 180px;
+ }
+
+ .team-member h4 {
+    font-size: 20px;
+ }
+
+ .team-member p {
+  font-size: 13px;
+}
+
+.user-social li a {
+  font-size: 17px;
+  background-color: #212529;
+  width: 35px;
+  height: 35px;
+  display: block;
+  line-height: 35px;
+  transition: all .3s;
+  color: #fff;
+  border-radius: 100%;
+  outline: 0;
+}
+
+#contactForm .input-section {
+  width: 39%;
+  display: inline-block;
+}
+
+.contact .textarea-content {
+  width: 59%;
+  float: right;
+}
+
+.footer .footer-flex {
+  flex-direction: column;
+}
+
+.footer .footer-flex .user-social, .footer-menu {
+  margin-top: 15px;
+}
+
+}
+
+@media (max-width: 574px){
+  .banner .banner-content h3{
+    font-size: 28px;
+    margin-bottom: 25px; 
+}
+
+  .banner .banner-content h2{
+    font-size: 27px;
+}
+
+  .services .bottom-services-content .child {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 50px;
+  }
+
+  .services .bottom-services-content .services-item {
+    padding: 0px;
+  }
+
+  .services-item h4 {
+    font-size: 1.3rem;
+  }
+
+  .heading-title {
+    font-size: 25px;
+  }
+  
+  .subheading-title {
+    font-size: 14px;
+  }
+
+  .banner .button1 {
+    padding: 19px 39px;
+    font-size: 15px;
+  }
+
+  .items:nth-child(2){
+    margin-top: 50px;
+}
+
+.portfolio-bottom-services .portfolio-item-caption {
+  width: 100%;
+ }
+
+ .portfolio-bottom-services .items {
+   flex: 0 1 90%;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+ }
+
+ .portfolio-item img {
+   width: 100%;
+ }
+
+
+ .users-parent .team-member {
+   width: 100%;
+ }
+
+ #contactForm .input-section {
+  width: 100%;
+  display: block;
+}
+
+.contact .textarea-content {
+  width: 100%;
+}
+
+}
+
+
+@media (max-width: 450px){
+  .our-partners .flex-item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .our-partners .flex-item a {
+    margin-bottom: 15px;
+  }
+
+  .portfolio-bottom-services .items {
+    flex: 0 1 100%;
+  }
+}
