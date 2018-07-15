@@ -1,1 +1,1 @@
-# HTML responsive theme
+# HTML & CSS & JS responsive theme
